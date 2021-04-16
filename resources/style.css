@@ -2,13 +2,42 @@ font-family: 'Antonio', sans-serif;
 font-family: 'Indie Flower', cursive;
 
 * {
-	
+	font-family: 'Antonio', sans-serif;
 }
 
 .grid {
+	display: grid;
 	
+	
+}
+
+.logo {
+	
+}
+
+.menu {
+	display: grid-inline;
 }
 
 .menucard {
 	
+}
+
+.smallbitesHeader,
+.heartybitesHeader,
+.sweettreatsHeader,
+.coffeeHeader,
+.softdrinksHeader,
+.adultdrinksHeader {
+	
+}
+
+.hpic {
+	min-width: 300px;
+	max-width: 650px;
+}
+
+.vpic {
+	min-width: 160px;
+	max-width: 300px;
 }
