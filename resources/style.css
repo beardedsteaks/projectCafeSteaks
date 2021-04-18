@@ -1,26 +1,35 @@
-font-family: 'Antonio', sans-serif;
-font-family: 'Indie Flower', cursive;
+/*font-family: 'Antonio', sans-serif;*/
+/*##font-family: 'Indie Flower', cursive;*/
 
-* {
+body {
 	font-family: 'Antonio', sans-serif;
+	color: rgba(67, 73, 84, 100);
+	font-size: 20px;
+	background-color: whitesmoke;
+	display: block;
 }
 
 .grid {
 	display: grid;
-	
-	
 }
 
 .logo {
-	
+	box-shadow: 10px 5px 5px rgba(67, 73, 84, 70%);
+	max-width: 200px;
+}
+
+.sectionheader {
+	font-size: 200px;
 }
 
 .menu {
-	display: grid-inline;
+	display: flex;
 }
 
 .menucard {
-	
+	max-width: 1fr;
+	border: 5px rgba(67, 73, 84, 70%);
+	box-shadow: 10px 5px 5px rgba(67, 73, 84, 70%);
 }
 
 .smallbitesHeader,
@@ -29,15 +38,27 @@ font-family: 'Indie Flower', cursive;
 .coffeeHeader,
 .softdrinksHeader,
 .adultdrinksHeader {
-	
+	font-weight: bold;
+	padding: 0px;
+	width: 100%;
+}
+
+.itemdescript {
+	font-style: italic;
+	font-size: 16px;
 }
 
 .hpic {
 	min-width: 300px;
-	max-width: 650px;
+	max-width: 100%;
+	overflow: hidden;
+	justify-content: end;
+	margin-top: 1rem;
 }
 
 .vpic {
 	min-width: 160px;
-	max-width: 300px;
+	max-width: 33%;
+	overflow: hidden;
+	margin-top: 1rem;
 }
